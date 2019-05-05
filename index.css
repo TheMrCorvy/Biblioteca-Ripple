@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+
+.ripple {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    animation: rippleEffect 2s 1;
+    opacity: 0;
+}
+
+@keyframes rippleEffect {
+    0% {
+        transform: scale(1);
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: scale(100);
+        opacity: 0;
+    }
+}
+
+/* .demo-button, */
+.red-button,
+.orange-button,
+.blue-button,
+.green-button,
+.yellow-button,
+.purple-button,
+.custom-button {
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 2px;
+    padding: 8px 16px;
+    margin: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: 0.2s;
+}
+
+.RippleDiv{
+    height: 30vh;
+    width: 100%;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    background: #1E88E5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/* .demo-button:hover, */
+.red-button:hover,
+.orange-button:hover,
+.blue-button:hover,
+.green-button:hover,
+.yellow-button:hover,
+.purple-button:hover,
+.custom-button:hover {
+    cursor: pointer;
+}
+
+.red-button {
+    background: #F44336;
+}
+
+.red-button:hover {
+    background: #f6675d;
+}
+
+.blue-button {
+    background: #1E88E5;
+}
+
+.blue-button:hover {
+    background: #439be9;
+}
+
+.green-button {
+    background: #43A047;
+}
+
+.green-button:hover {
+    background: #54b859;
+}
+
+.yellow-button {
+    background: #FFC107;
+}
+
+.yellow-button:hover {
+    background: #ffcb30;
+}
+
+.purple-button {
+    background: #9C27B0;
+}
+
+.purple-button:hover {
+    background: #b92fd1;
+}
+
+.custom-button {
+    background: none;
+    color: #000;
+    box-shadow: none;
+}
+
+body {
+    text-align: center;
+    background: #eee;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* body h1, */
+body h2
+/* body h3,
+body p */{
+    opacity: 0.9;
+    margin: 8px 0px;
+}
+
+/* body h1 {
+    font-weight: 300;
+} */
+
+body h2 {
+    font-weight: 300;
+    margin-top: 32px;
+}
+
+/* body .op-70 {
+    opacity: 0.7;
+} */
+
+/* body a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid #1E88E5;
+    transition: 0.2s;
+} */
+
+/* body a:hover {
+    opacity: 0.75;
+    border-bottom-color: #4ca0ea;
+} */
+
+body .stage {
+    margin: 16px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+}
