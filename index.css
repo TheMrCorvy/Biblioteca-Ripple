@@ -75,6 +75,14 @@
     background: #f6675d;
 }
 
+.orange-button{
+    background: #F4511E;
+}
+
+.orange-button:hover{
+    background: #FF5722;
+}
+
 .blue-button {
     background: #1E88E5;
 }
